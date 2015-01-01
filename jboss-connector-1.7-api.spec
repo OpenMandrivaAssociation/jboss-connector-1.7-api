@@ -1,10 +1,12 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global namedreltag .Final
 %global namedversion %{version}%{?namedreltag}
 
 Name:             jboss-connector-1.7-api
 Version:          1.0.0
-Release:          2%{?dist}
+Release:          2.1
 Summary:          Connector Architecture 1.7 API
+Group:		  Development/Java
 License:          CDDL or GPLv2 with exceptions
 URL:              http://www.jboss.org
 Source0:          https://github.com/jboss/jboss-connector-api_spec/archive/jboss-connector-api_1.7_spec-%{namedversion}.tar.gz
