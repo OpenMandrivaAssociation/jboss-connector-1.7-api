@@ -8,7 +8,7 @@ Release:          2.3
 Summary:          Connector Architecture 1.7 API
 Group:		  Development/Java
 License:          CDDL or GPLv2 with exceptions
-URL:              http://www.jboss.org
+URL:              https://www.jboss.org
 Source0:          https://github.com/jboss/jboss-connector-api_spec/archive/jboss-connector-api_1.7_spec-%{namedversion}.tar.gz
 Source1:          cddl.txt
 
